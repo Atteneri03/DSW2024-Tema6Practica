@@ -1,0 +1,24 @@
+{
+    "name": "atten/dsw2024_tema6practica",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Atten\\Dsw2024Tema6practica\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Atteneri",
+            "email": "atteeste2003@gmail.com"
+        }
+    ],
+    "require": {
+        "philo/laravel-blade": "3.1",
+        "altorouter/altorouter": "^2.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}
